@@ -10,7 +10,6 @@
 
 # production
 /build
-/src/private
 
 # misc
 .DS_Store
