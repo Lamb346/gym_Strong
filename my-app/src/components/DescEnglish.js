@@ -1,6 +1,6 @@
 export function getInfo(infoList) {
     return infoList.filter(element => {
-        return element.language == 2;
+        return element.language === 2;
     })[0].name;
 }
 

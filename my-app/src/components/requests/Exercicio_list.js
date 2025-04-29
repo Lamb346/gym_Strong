@@ -2,7 +2,7 @@ import token from "../../private/token.js"
 
 async function getExcList(filtro,ActivePage) {
   try {
-    const response = ActivePage == 0 ? await requestFavList() : await requestExcList(filtro,ActivePage);
+    const response = ActivePage === 0 ? await requestFavList() : await requestExcList(filtro,ActivePage);
     const data = await response.json(); // se for um fetch
     return data;
   } catch (error) {

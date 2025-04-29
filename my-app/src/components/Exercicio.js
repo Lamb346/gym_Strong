@@ -17,7 +17,7 @@ const ListaExercicios = ({filtro,setPag,activePage}) => {
       }
     }
     getData();
-  }, [filtro,activePage]);
+  }, [filtro,activePage,setPag]);
 
   return ( 
     <div className="col-span-3">

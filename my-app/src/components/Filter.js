@@ -26,7 +26,7 @@ const Filters = ({onFilter}) => {
 
     useEffect(() => {
       onFilter(filterExCheck);
-    }, [filterExCheck]);
+    }, [filterExCheck,onFilter]);
 
     const HandleToggle =(id, tipo) =>{
       setFilterExCheck((prev) => ({
